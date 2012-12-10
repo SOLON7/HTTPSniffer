@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcproj", "{91254B80-BD0B-4BB4-9214-C909B2EE4FC3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Installer", "Installer\Installer.vcproj", "{1E170096-3107-4F29-82D5-BB02851EA718}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91254B80-BD0B-4BB4-9214-C909B2EE4FC3} = {91254B80-BD0B-4BB4-9214-C909B2EE4FC3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LSP", "LSP\LSP.vcproj", "{0279E699-9E7D-4E7B-86FD-9CF6F0FB8D01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91254B80-BD0B-4BB4-9214-C909B2EE4FC3} = {91254B80-BD0B-4BB4-9214-C909B2EE4FC3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{9F2050B0-7D30-4C18-9C12-377F20F82D25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{FA969979-7C66-431F-B23E-8336CC00E4C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Service", "Service\Service.vcproj", "{CB8A754E-F660-4190-8BBF-4AF492A9EDBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91254B80-BD0B-4BB4-9214-C909B2EE4FC3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91254B80-BD0B-4BB4-9214-C909B2EE4FC3}.Debug|Win32.Build.0 = Debug|Win32
+		{91254B80-BD0B-4BB4-9214-C909B2EE4FC3}.Release|Win32.ActiveCfg = Release|Win32
+		{91254B80-BD0B-4BB4-9214-C909B2EE4FC3}.Release|Win32.Build.0 = Release|Win32
+		{1E170096-3107-4F29-82D5-BB02851EA718}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E170096-3107-4F29-82D5-BB02851EA718}.Debug|Win32.Build.0 = Debug|Win32
+		{1E170096-3107-4F29-82D5-BB02851EA718}.Release|Win32.ActiveCfg = Release|Win32
+		{1E170096-3107-4F29-82D5-BB02851EA718}.Release|Win32.Build.0 = Release|Win32
+		{0279E699-9E7D-4E7B-86FD-9CF6F0FB8D01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0279E699-9E7D-4E7B-86FD-9CF6F0FB8D01}.Debug|Win32.Build.0 = Debug|Win32
+		{0279E699-9E7D-4E7B-86FD-9CF6F0FB8D01}.Release|Win32.ActiveCfg = Release|Win32
+		{0279E699-9E7D-4E7B-86FD-9CF6F0FB8D01}.Release|Win32.Build.0 = Release|Win32
+		{CB8A754E-F660-4190-8BBF-4AF492A9EDBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB8A754E-F660-4190-8BBF-4AF492A9EDBA}.Debug|Win32.Build.0 = Debug|Win32
+		{CB8A754E-F660-4190-8BBF-4AF492A9EDBA}.Release|Win32.ActiveCfg = Release|Win32
+		{CB8A754E-F660-4190-8BBF-4AF492A9EDBA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91254B80-BD0B-4BB4-9214-C909B2EE4FC3} = {9F2050B0-7D30-4C18-9C12-377F20F82D25}
+		{0279E699-9E7D-4E7B-86FD-9CF6F0FB8D01} = {9F2050B0-7D30-4C18-9C12-377F20F82D25}
+		{1E170096-3107-4F29-82D5-BB02851EA718} = {9F2050B0-7D30-4C18-9C12-377F20F82D25}
+		{CB8A754E-F660-4190-8BBF-4AF492A9EDBA} = {FA969979-7C66-431F-B23E-8336CC00E4C5}
+	EndGlobalSection
+EndGlobal
