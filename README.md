@@ -1,4 +1,0 @@
-HTTPSniffer
-===========
-
-HTTPSniffer LSP proider
